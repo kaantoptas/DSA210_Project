@@ -2,8 +2,8 @@ DSA210 Project: Director Fatigue Hypothesis
 
 This project investigates whether directors experience a "fatigue effect" after making long movies, causing their next film to receive lower IMDb ratings.
 
-Author: Kaan Toptas
-Course: DSA210 - Introduction to Data Science
+Author: Kaan Toptas,
+Course: DSA210 - Introduction to Data Science,
 Date: 3 March 2026
 
 Research Question:
