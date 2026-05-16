@@ -13,7 +13,7 @@ Key Findings:
 - Directors who made a movie longer than 150 minutes saw their next movie's rating drop by 0.205 points on average.
 - Directors with shorter previous movies (under 150 minutes) experienced almost no change (-0.023).
 - The difference is statistically significant (p = 0.0106).
-- Linear Regression model achieved R² = 0.395 using previous movie runtime and rating as features.
+- Linear Regression model achieved R² = 0.464 using previous movie runtime and rating as features.
 
 Datasets Used:
 
@@ -62,7 +62,7 @@ Results Summary:
 | Rating change can be predicted from previous movie features | Partially | R² = 0.395 |
 
 Conclusion:
-The project supports the director fatigue hypothesis. Directors who make long movies tend to have lower-rated subsequent films. A linear regression model using previous movie runtime and rating explains about 40% of the variation in rating change.
+The data is consistent with the director fatigue hypothesis. Directors who make long movies tend to have lower-rated subsequent films. A Random Forest model using previous movie features (runtime, rating, year gap, director history) explains about 50% of the variation in rating change (R² = 0.499), outperforming Linear Regression (R² = 0.464).
 
 Limitations:
 - Only 459 movies could be matched between the two datasets
