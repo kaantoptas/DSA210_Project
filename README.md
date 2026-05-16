@@ -13,7 +13,7 @@ Key Findings:
 - Directors who made a movie longer than 150 minutes saw their next movie's rating drop by 0.205 points on average.
 - Directors with shorter previous movies (under 150 minutes) experienced almost no change (-0.023).
 - The difference is statistically significant (p = 0.0106).
-- Linear Regression model achieved R² = 0.464 using previous movie runtime and rating as features.
+- Random Forest model achieved the best performance with R² = 0.499 using previous movie features (runtime, rating, year gap, director history), outperforming Linear Regression (R² = 0.464).
 
 Datasets Used:
 
