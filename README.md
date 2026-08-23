@@ -1,4 +1,4 @@
-DSA210 Project: Director Fatigue Hypothesis
+DS Project: Director Fatigue Analysis
 
 This project investigates whether directors experience a "fatigue effect" after making long movies, causing their next film to receive lower IMDb ratings.
 
